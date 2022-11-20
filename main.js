@@ -84,47 +84,33 @@ renderer.setClearColor("#262837");
 
 // TEXTURES
 // door textures
-const doorColorTexture = textureLoader.load("./static/textures/door/color.jpg");
-const doorAlphaTexture = textureLoader.load("./static/textures/door/alpha.jpg");
+const doorColorTexture = textureLoader.load("./textures/door/color.jpg");
+const doorAlphaTexture = textureLoader.load("./textures/door/alpha.jpg");
 const doorAmbientTexture = textureLoader.load(
-  "./static/textures/door/ambientOcclusion.jpg"
+  "./textures/door/ambientOcclusion.jpg"
 );
-const doorMetalTexture = textureLoader.load(
-  "./static/textures/door/metalness.jpg"
-);
+const doorMetalTexture = textureLoader.load("./textures/door/metalness.jpg");
 const doorRoughnessTexture = textureLoader.load(
-  "./static/textures/door/roughness.jpg"
+  "./textures/door/roughness.jpg"
 );
-const doorNormalTexture = textureLoader.load(
-  "./static/textures/door/normal.jpg"
-);
-const doorHeightTexture = textureLoader.load(
-  "./static/textures/door/height.jpg"
-);
+const doorNormalTexture = textureLoader.load("./textures/door/normal.jpg");
+const doorHeightTexture = textureLoader.load("./textures/door/height.jpg");
 
 // bricks texture
 const bricksAoMap = textureLoader.load(
-  "./static/textures/bricks/ambientOcclusion.jpg"
+  "./textures/bricks/ambientOcclusion.jpg"
 );
-const bricksNormalMap = textureLoader.load(
-  "./static/textures/bricks/normal.jpg"
-);
-const bricksColourMap = textureLoader.load(
-  "./static/textures/bricks/color.jpg"
-);
+const bricksNormalMap = textureLoader.load("./textures/bricks/normal.jpg");
+const bricksColourMap = textureLoader.load("./textures/bricks/color.jpg");
 const bricksRoughnessMap = textureLoader.load(
-  "./static/textures/bricks/roughness.jpg"
+  "./textures/bricks/roughness.jpg"
 );
 
 // floor texture
-const grassColorMap = textureLoader.load("./static/textures/grass/color.jpg");
-const grassNormalMap = textureLoader.load("./static/textures/grass/normal.jpg");
-const grassAoMap = textureLoader.load(
-  "./static/textures/grass/ambientOcclusion.jpg"
-);
-const grassRoughnessMap = textureLoader.load(
-  "./static/textures/grass/roughness.jpg"
-);
+const grassColorMap = textureLoader.load("./textures/grass/color.jpg");
+const grassNormalMap = textureLoader.load("./textures/grass/normal.jpg");
+const grassAoMap = textureLoader.load("./textures/grass/ambientOcclusion.jpg");
+const grassRoughnessMap = textureLoader.load("./textures/grass/roughness.jpg");
 
 grassColorMap.repeat.set(8, 8);
 grassColorMap.wrapS = RepeatWrapping;
